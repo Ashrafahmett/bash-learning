@@ -21,5 +21,17 @@ echo " hello sir" it's mut have a space onless is not going, to work.
 
 have fun with echo write a lot and see what is going to open
 
+after just make another folder using the commend line 
+
+mkdir bash.sh
+
+cd bash.sh
+
+first look where you are and guess what we gonna use yes your right we gonna use pwd
+
+then you can use cd to your folder , get it
+
+
+
 
 
