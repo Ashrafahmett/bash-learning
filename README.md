@@ -11,3 +11,15 @@ ls.. this one you gonna use when you need to list all files for example you went
 
 pwd... this is gonna tell you where are you in curruntly like when open your terminal and you want to go the folder dowloands how do you know you are inside the folder so this why we need to do pwd
 
+and right now le's script small bash , 
+
+we gonna start with shebang #!/bin/bash
+
+then echo, echo is output dont' worry i'll write the script after i'll explain to you what it's
+
+echo " hello sir" it's mut have a space onless is not going, to work.
+
+have fun with echo write a lot and see what is going to open
+
+
+
