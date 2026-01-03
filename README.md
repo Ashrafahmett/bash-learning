@@ -32,6 +32,33 @@ first look where you are and guess what we gonna use yes your right we gonna use
 then you can use cd to your folder , get it
 
 
+#so lt's make small script askin the user he's name and age
+
+
+#!/bin/bash
+
+
+echo "hello sir what's you name" name
+read name
+
+echo "wellcom $name "
+
+echo "what's is your name?" age
+
+read age
+
+echo "you are $age year old wow that's cool!"
+
+
+
+
+#this script we make he gonna ask the users what is thair name and age
+
+
+read is vairable and we used to sort the data and output the name of the user
+
+
+
 
 
 
