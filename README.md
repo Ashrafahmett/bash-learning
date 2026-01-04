@@ -60,5 +60,41 @@ read is vairable and we used to sort the data and output the name of the user
 
 
 
+#ok se we used read how we can make it in one line?
+
+
+read -p "hello what's your name?" name
+
+see, we use it one oline and my you may wondring why we did,t use the echo ! beacuse se use it the read variable to read the text and we don't have to say echo"
+
+
+
+ok let's make script using read variable,
+
+
+
+#/bin/bash
+
+read -P "hello user what's your name" name
+
+echo "$name wow that's a good name"
+
+read -P and if may ask what's your age" age
+
+echo "$age you are very young wow"
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+ok let me introduce with -s 
+
+-s you gonna use when you need to hide something like user password le's make one
+
+
+#/bin/bash
+
+
 
 
