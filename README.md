@@ -96,5 +96,10 @@ ok let me introduce with -s
 #/bin/bash
 
 
+read -sP "hello user put your password" user
+
+
+
+
 
 
