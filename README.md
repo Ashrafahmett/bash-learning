@@ -96,7 +96,21 @@ ok let me introduce with -s
 #/bin/bash
 
 
-read -sP "hello user put your password" user
+read -p "hello user put your username"username
+
+echo "$username"
+
+sleep 1
+
+
+read sP-"please put your user name"
+
+........................................................................................................................
+
+
+right now let's talk about ,,if 
+
+
 
 
 
