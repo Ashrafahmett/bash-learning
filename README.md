@@ -121,7 +121,15 @@ if [ $age -ge 18 ]; then
   echo "You are an adult"
 else
   echo "You are under 18"
-fi
+fi#!/bin/bash
+echo "🐍 Python | 💻 Cybersecurity"
+echo "📚 Learning every day"
+echo "🏋️ Gym • Code • Build"
+
+
+
+
+
 
 
 
