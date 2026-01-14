@@ -129,6 +129,17 @@ echo "🏋️ Gym • Code • Build"
 
 
 
+#!/bin/bash
+
+echo "What is your name?"
+read name
+
+echo "Hello $name 👋"
+echo "Today is: $(date)"
+
+
+
+
 
 
 
