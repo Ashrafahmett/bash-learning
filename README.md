@@ -140,6 +140,29 @@ echo "Today is: $(date)"
 
 
 
+#!/usr/bin/env bash
+# daily_check.sh
+
+echo "Did you study today? (yes/no)"
+read -r study
+
+echo "Did you go to the gym today? (yes/no)"
+read -r gym
+
+if [[ "$study" == "yes" && "$gym" == "yes" ]]; then
+  echo "W day 😤✅ Study + Gym done."
+elif [[ "$study" == "yes" && "$gym" != "yes" ]]; then
+  echo "Study done ✅ Gym missing 🏋️‍♂️"
+elif [[ "$study" != "yes" && "$gym" == "yes" ]]; then
+  echo "Gym done ✅ Study missing 📚"
+else
+  echo "Both missing 😅 Fix it tomorrow."
+fi
+
+
+
+
+
 
 
 
