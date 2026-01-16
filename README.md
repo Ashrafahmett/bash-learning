@@ -160,6 +160,20 @@ else
 fi
 
 
+#!/bin/bash
+
+echo "🚀 Starting system update..."
+
+sudo apt update && sudo apt upgrade -y
+
+echo "🧹 Cleaning up..."
+sudo apt autoremove -y
+sudo apt autoclean
+
+echo "✅ System is up to date. Go touch grass."
+
+
+
 
 
 
