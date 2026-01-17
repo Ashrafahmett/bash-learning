@@ -178,6 +178,41 @@ echo "✅ System is up to date. Go touch grass."
 
 
 
+#!/bin/bash
+
+echo "Starting system update..."
+
+sudo apt update && sudo apt upgrade -y
+
+echo "Installing basic tools..."
+
+sudo apt install -y \
+git \
+curl \
+wget \
+build-essential \
+vim \
+htop \
+net-tools \
+python3 \
+python3-pip \
+nodejs \
+npm
+
+echo "Cleaning system..."
+
+sudo apt autoremove -y
+sudo apt autoclean -y
+
+echo "Done. System is ready."
+
+
+
+
+
+
+
+
 
 
 
